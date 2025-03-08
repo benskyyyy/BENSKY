@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+}
+.container {
+    max-width: 800px;
+    background: rgb(184, 175, 175);
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+h1, h2 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact-info {
+    font-size: 14px;
+    color: #666;
+}
+.job-title {
+    font-weight: bold;
+    color: #555;
+}
+.company {
+    font-style: italic;
+    color: #777;
+}
+.profile-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
