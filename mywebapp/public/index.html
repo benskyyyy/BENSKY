@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">  
+    <script>
+        function openPopup(url, title) {
+            let popupWidth = 600;
+            let popupHeight = 700;
+
+            let left = (window.innerWidth - popupWidth) / 2;
+            let top = (window.innerHeight - popupHeight) / 2;
+
+            window.open(url, title, `width=${popupWidth},height=${popupHeight},top=${top},left=${left},resizable=yes,scrollbars=yes`);
+        }
+    </script>
+</head>
+<body>
+
+   
+    <div class="profile-container">
+        <img src="me.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Bensky Q. Abdon</h1>
+            <p class="contact-info">
+                <strong>Email:</strong> beabdon@gbox.adnu.edu.ph | 
+                <strong>Phone:</strong> +63-977-215-9531 | 
+                <strong>Location:</strong> Milaor, Philippines
+            </p>
+        </header>
+        
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                A dedicated IT professional with a solid foundation in programming, networking, and software development. 
+                Passionate about problem-solving, troubleshooting, and utilizing modern technologies to create efficient 
+                solutions. Eager to apply my academic knowledge and hands-on experience in a professional setting.
+            </p>
+        </section>
+        
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="job">
+                <p class="job-title">Software Developer Intern</p>
+                <p class="company">Tech Solutions Inc. | June 2023 - August 2023</p>
+                <ul>
+                    <li>Developed web-based applications using JavaScript, HTML, and CSS.</li>
+                    <li>Assisted in database management and debugging software issues.</li>
+                    <li>Collaborated with senior developers to improve existing systems.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Education</h2>
+            <p class="job-title">Bachelor of Science in Information Technology</p>
+            <p class="company">Ateneo de Naga University | Expected Graduation: 2025</p>
+        </section>
+        
+        <section class="section">
+            <h2>Projects</h2>
+            <button class="button" onclick="openPopup('/cal/cal.html', 'Calculator')">View Calculator</button>
+            <button class="button" onclick="openPopup('/note/note.html', 'Notepad')">View Notepad</button>
+        </section>
+    </div>
+
+</body>
+</html>

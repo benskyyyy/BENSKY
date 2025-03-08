@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+.profile-container {
+    text-align: center;
+    margin-bottom: -60px; 
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+
+.contact-info {
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.job-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+.company {
+    font-style: italic;
+    color: #777;
+}
+
+
+.job ul {
+    padding-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+/*button*/
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #007BFF;
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Times New Roman', serif;
+}
+
+.button:hover {
+    background: #0056b3;
+    border: 2px solid #004080;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .profile-image {
+        width: 110px;
+        height: 110px;
+    }
+    .button {
+        width: 100%;
+    }
+}
